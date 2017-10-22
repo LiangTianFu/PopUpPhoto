@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>弹出式相框</title>
+  <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <!-- 卡片正面 -->
+      <img src="images/back.jpg" />
+      <img class="buddy" src="images/head.jpg" />
+      <div class="inner">
+        <h3>慕课网</h3>
+        <span>慕课网-弹出式相框</span>
+        <div class="btn open">查看课程</div>
+      </div>
+    </div>
+
+    <div class="pop">
+      <!-- 卡片背面 -->
+      <div class="close">&times;</div>
+      <h3>慕课网</h3>
+      <span>慕课网-弹出式相框</span>
+      <img src="images/pic1.jpg" />
+      <img src="images/pic2.jpg" />
+      <img src="images/pic3.jpg" />
+      <img src="images/pic4.jpg" />
+    </div>
+  </div>
+
+  <script src="JS/jquery.js"></script>
+  <script src="JS/velocity.min.js"></script>
+  <script src="JS/velocity.ui.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
